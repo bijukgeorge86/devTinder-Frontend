@@ -7,10 +7,10 @@ import { Provider } from "react-redux";
 import appStore from "./store/appStore";
 import Connections from "./components/Connections";
 import Requests from "./components/Requests";
-import PrivacyPolicy from "./components/pages/PrivacyPolicy";
-import RefundPolicy from "./components/pages/RefundPolicy";
-import TermsOfService from "./components/pages/TermsOfService";
-import ContactUs from "./components/pages/ContactUs";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import RefundPolicy from "./components/RefundPolicy";
+import TermsOfService from "./components/TermsOfService";
+import ContactUs from "./components/ContactUs";
 
 function App() {
     return (
