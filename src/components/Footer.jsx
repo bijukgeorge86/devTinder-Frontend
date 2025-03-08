@@ -19,6 +19,41 @@ const Footer = () => {
                     Copyright © {new Date().getFullYear()} - All right reserved
                 </p>
             </aside>
+
+            <div className="lg:m-2 flex flex-col gap-6">
+                {/*}div className="dark:text-white">Terms and Policies</div>*/}
+                <div className="flex flex-row gap- dark:text-white text-white">
+                    <a
+                        className="hover:underline flex items-center justify-start"
+                        href="/privacy-policy"
+                    >
+                        <p>Privacy Policy</p>
+                    </a>{" "}
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a
+                        className="hover:underline flex items-center justify-start"
+                        href="/terms-of-service"
+                    >
+                        <p>Terms Of Service</p>
+                    </a>
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a
+                        className="hover:underline flex items-center justify-start"
+                        href="/refund-policy"
+                    >
+                        <p>Refund Policy</p>
+                    </a>
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a
+                        className="hover:underline flex items-center justify-start"
+                        href="/contact-us"
+                    >
+                        <p>Contact Us</p>
+                    </a>
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                </div>
+            </div>
+
             <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                 <a>
                     <svg
@@ -54,35 +89,6 @@ const Footer = () => {
                     </svg>
                 </a>
             </nav>
-            {/*<div className="m-2 lg:m-8 flex flex-col gap-6">
-                <div className="dark:text-white">Terms and Policies</div>
-                <div className="flex flex-col gap-2 dark:text-white text-white">
-                    <a
-                        className="hover:underline flex items-center justify-start"
-                        href="/privacy-policy"
-                    >
-                        <p>Privacy Policy</p>
-                    </a>
-                    <a
-                        className="hover:underline flex items-center justify-start"
-                        href="/terms-of-service"
-                    >
-                        <p>Terms Of Service</p>
-                    </a>
-                    <a
-                        className="hover:underline flex items-center justify-start"
-                        href="/refund-policy"
-                    >
-                        <p>Refund Policy</p>
-                    </a>
-                    <a
-                        className="hover:underline flex items-center justify-start"
-                        href="/contact-us"
-                    >
-                        <p>Contact Us</p>
-                    </a>
-                </div>
-            </div>*/}
         </footer>
     );
 };
