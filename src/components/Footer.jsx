@@ -54,7 +54,7 @@ const Footer = () => {
                     </svg>
                 </a>
             </nav>
-            <div className="m-2 lg:m-8 flex flex-col gap-6">
+            {/*<div className="m-2 lg:m-8 flex flex-col gap-6">
                 <div className="dark:text-white">Terms and Policies</div>
                 <div className="flex flex-col gap-2 dark:text-white text-white">
                     <a
@@ -82,7 +82,7 @@ const Footer = () => {
                         <p>Contact Us</p>
                     </a>
                 </div>
-            </div>
+            </div>*/}
         </footer>
     );
 };

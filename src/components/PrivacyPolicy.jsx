@@ -1,8 +1,11 @@
 import React from "react";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 const PrivacyPolicy = () => {
     return (
         <div>
+            <NavBar />
             <div className=" w-[75%] mx-auto py-3 dark:text-white">
                 <b className=" flex justify-center text-3xl">
                     <h1>PRIVACY POLICY</h1>
@@ -1068,6 +1071,7 @@ const PrivacyPolicy = () => {
                     exercising their rights under the CCPA.
                 </p>
             </div>
+            <Footer />
         </div>
     );
 };

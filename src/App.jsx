@@ -27,20 +27,20 @@ function App() {
                                 element={<Connections />}
                             />
                             <Route path="/requests" element={<Requests />} />
-                            <Route
-                                path="/privacy-policy"
-                                element={<PrivacyPolicy />}
-                            />
-                            <Route
-                                path="/refund-policy"
-                                element={<RefundPolicy />}
-                            />
-                            <Route
-                                path="/terms-of-service"
-                                element={<TermsOfService />}
-                            />
-                            <Route path="/contact-us" element={<ContactUs />} />
                         </Route>
+                        <Route
+                            path="/privacy-policy"
+                            element={<PrivacyPolicy />}
+                        />
+                        <Route
+                            path="/refund-policy"
+                            element={<RefundPolicy />}
+                        />
+                        <Route
+                            path="/terms-of-service"
+                            element={<TermsOfService />}
+                        />
+                        <Route path="/contact-us" element={<ContactUs />} />
                     </Routes>
                 </BrowserRouter>
             </Provider>

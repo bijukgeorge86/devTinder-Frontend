@@ -1,8 +1,11 @@
 import React from "react";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 const RefundPolicy = () => {
     return (
         <div>
+            <NavBar />
             <div className="w-[75%] mx-auto py-3 dark:text-white">
                 <b className="flex justify-center text-3xl">
                     <h1>REFUND POLICY</h1>
@@ -65,6 +68,7 @@ const RefundPolicy = () => {
                     </li>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };

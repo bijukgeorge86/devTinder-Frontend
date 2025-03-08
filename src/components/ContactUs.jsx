@@ -1,8 +1,11 @@
 import React from "react";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 const ContactUs = () => {
     return (
         <div>
+            <NavBar />
             <div className="w-[75%] mx-auto py-3 dark:text-white">
                 <b className="flex justify-center text-3xl">
                     <h1>CONTACT US</h1>
@@ -27,6 +30,7 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
